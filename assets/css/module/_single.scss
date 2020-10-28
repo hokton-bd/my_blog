@@ -1,0 +1,34 @@
+.post {
+    background: $white;
+    box-shadow: $box-shadow;
+
+    &__post-head {
+        padding: 3.2rem;
+        text-align: center;
+
+        a {
+            text-transform: uppercase;
+        }
+
+    }
+
+    .post-head__title {
+
+    }
+
+    &__post-thumbnail {
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+
+    }
+
+    .content {
+
+        padding: 3.2rem;
+
+    }
+
+}

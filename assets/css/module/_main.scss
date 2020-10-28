@@ -1,0 +1,7 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: $inner-width;
+    margin: 0 auto;
+}

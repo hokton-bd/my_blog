@@ -1,0 +1,44 @@
+.category-name {
+    font-size: 3.2rem;
+    text-transform: uppercase;
+    margin-bottom: 4.8rem;
+}
+
+.post {
+
+    display: block;
+    background: $white;
+    width: 100%;
+    padding: 3.2rem 0;
+    margin-bottom: 3.2rem;
+
+    &__head {
+        padding: 0 1.6rem;
+        text-align: center;
+    }
+
+    &__body {
+        padding: 0 1.6rem;
+        text-align: center;
+    }
+
+    &__date {
+        display: block;
+        font-size: 1.4rem;
+    }
+
+    &__title {
+        font-size: 3.6rem;
+        font-weight: bold;
+        display: block;
+    }
+    
+    p {
+        margin-bottom: 3.2rem;
+    }
+
+    .read-more {
+        margin-top: 1.6rem;
+    }
+
+}

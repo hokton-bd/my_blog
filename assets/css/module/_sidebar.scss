@@ -1,0 +1,48 @@
+.sidebar {
+
+    width: 30.5%;
+
+    &__inner {
+        padding: 0;
+    }
+
+    .widget {
+        background: $white;
+        margin-bottom: 3.2rem;
+        padding: 3.2rem;
+        box-shadow: $box-shadow;
+    }
+
+    .widget-title {
+        font-size: 2.4rem;
+        text-transform: uppercase;
+        position: relative;
+        margin-bottom: 6rem;
+        text-align: center;
+
+        &::before {
+            display: block;
+            content: '';
+            width: 72px;
+            height: 2px;
+            background-color: $accent;
+            position: absolute;
+            bottom: -42%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+    }
+
+    ul {
+        padding: 0 2.4rem;
+    }
+
+    li {
+        padding: 1.6rem;
+        border-bottom: 1px dashed $text;
+    }
+
+    
+
+}
