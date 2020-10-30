@@ -11,6 +11,15 @@ html {
     width: 100%;
     max-width: $inner-width;
     margin: 0 auto;
+
+    @include mq('tab') {
+        width: $tab-inner;
+    }
+
+    @include mq('sp') {
+        width: $sp-inner;
+    }
+
 }
 
 * {

@@ -6,6 +6,10 @@
         padding: 2.4rem 0;
     }
 
+    @include mq('sp') {
+        display: none;
+    }
+
     &__list {
 
         display: flex;

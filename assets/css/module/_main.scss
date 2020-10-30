@@ -4,4 +4,10 @@
     flex-wrap: wrap;
     max-width: $inner-width;
     margin: 0 auto;
+
+    @include mq('tab') {
+        display: block;
+        
+    }
+
 }

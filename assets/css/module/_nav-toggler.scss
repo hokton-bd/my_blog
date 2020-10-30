@@ -1,0 +1,52 @@
+.nav-toggler {
+    position: absolute;
+    right: 0;
+    top: -48px;
+
+    &__icon {
+        position: relative;
+        display: block;
+        height: 2px;
+        width: 30px;
+        background: white;
+        transition: $transition;
+
+        &:nth-child(1) {
+            top: 0;
+        }
+        &:nth-child(2) {
+            margin: 8px 0;
+        }
+        &:nth-child(3) {
+            top: 0;
+        }
+
+    }
+
+
+}
+
+.d-check {
+
+    .nav-toggler {
+
+        &__icon {
+
+            &:nth-child(1) {
+                top: 10px;
+                transform: rotate(45deg);
+            }
+            &:nth-child(2) {
+                transform: translateY(-50%);
+                opacity: 0;
+            }
+            &:nth-child(3) {
+                top: -10px;
+                transform: rotate(-45deg);
+            }
+
+        }
+
+    }
+
+}

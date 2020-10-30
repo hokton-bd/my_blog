@@ -6,4 +6,11 @@
         padding: 0;
     }
 
+    @include mq('tab') {
+
+        width: 100%;
+
+
+    }
+
 }
