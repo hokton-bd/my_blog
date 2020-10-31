@@ -1,6 +1,9 @@
 .header {
 
-    background: black;
+    @include mq('sp') {
+        background: black;
+        margin-bottom: 3.2rem;
+    }
 
     &__inner {
 

@@ -48,16 +48,40 @@ h1 {
   font-size: 4.8rem;
 }
 
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 3.6rem;
+  }
+}
+
 h2 {
   font-size: 3.6rem;
+}
+
+@media screen and (max-width: 767px) {
+  h2 {
+    font-size: 2.4rem;
+  }
 }
 
 h3 {
   font-size: 2.4rem;
 }
 
+@media screen and (max-width: 767px) {
+  h3 {
+    font-size: 2rem;
+  }
+}
+
 h4 {
   font-size: 2rem;
+}
+
+@media screen and (max-width: 767px) {
+  h4 {
+    font-size: 1.8rem;
+  }
 }
 
 .read-more {
@@ -104,13 +128,22 @@ h4 {
   line-height: 1.8;
 }
 
+@media screen and (max-width: 767px) {
+  .paragraph {
+    font-size: 1.4rem;
+  }
+}
+
 .img-box img {
   width: 100%;
   height: 100%;
 }
 
-.header {
-  background: black;
+@media screen and (max-width: 767px) {
+  .header {
+    background: black;
+    margin-bottom: 3.2rem;
+  }
 }
 
 .header__inner {
@@ -271,6 +304,7 @@ h4 {
 .posts .post__excerpt {
   padding: 0 4rem;
   margin-bottom: 3.2rem;
+  text-align: left;
 }
 
 .sidebar {
@@ -333,8 +367,26 @@ h4 {
   text-align: center;
 }
 
+@media screen and (max-width: 767px) {
+  .post__post-head {
+    padding-top: 0;
+  }
+}
+
 .post__post-head a {
   text-transform: uppercase;
+}
+
+@media screen and (max-width: 767px) {
+  .post__post-head a {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .post .post-head__title {
+    font-size: 3.2rem;
+  }
 }
 
 .post__post-thumbnail img {
@@ -450,7 +502,7 @@ h4 {
 .nav-toggler {
   position: absolute;
   right: 0;
-  top: -48px;
+  top: -40px;
 }
 
 .nav-toggler__icon {
